@@ -16,7 +16,7 @@ executable. It will launch a tournament of different arenas and different start
 positions. Alternatively, run `paintwars.py` for a single match.\
 *To configurate*: `paintwars_config.py`\
 Our algorithm is in `paintwars_sarmale.py`. By default, it competes with the
-basic implemenation `paintwars_team_champion`.\\
+basic implemenation `paintwars_team_champion`.
 
 Each robot has 8 sensors: front, front-left, front-right, left, right, back,
 back-left, back-right. They distinguish between the different type of obstacles
@@ -24,7 +24,7 @@ back-left, back-right. They distinguish between the different type of obstacles
 0 (next to). A linear combination of these values and excitatory (+1) or
 inhibitory (-1) parameters controls the speed of transposition (1 - full speed
 forward; -1 - full speed backward) and the speed of rotation (1 - 90 deg the
-right; -1 - 90 deg to the left).\\
+right; -1 - 90 deg to the left).
 
 The algorithm prioritizes the avoidance of wall and same team robots,
 respectively. Next, some robots are designed to follow robots from the opposite
