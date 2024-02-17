@@ -9,7 +9,7 @@ using behaviour trees, using the [Roborobo simulator](https://github.com/nekonau
 Two teams of eight robots each, that do not communicate with each other,
 compete to paint as much of the map as possible with their team's color (Red or
 Blue). One cell of the map can be repainted by the other team that happens to
-pass by there.\
+pass by there.
 
 *To run*: unzip the archive `logs.zip` and run the `go_tournament_eval`
 executable. It will launch a tournament of different arenas and different start
