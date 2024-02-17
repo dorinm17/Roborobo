@@ -16,7 +16,7 @@ executable. It will launch a tournament of different arenas and different start
 positions. Alternatively, run `paintwars.py` for a single match.\
 *To configurate*: `paintwars_config.py`\
 Our algorithm is in `paintwars_sarmale.py`. By default, it competes with the
-basic implemenation `paintwars_team_champion`.
+basic implementation `paintwars_team_champion`.
 
 Each robot has 8 sensors: front, front-left, front-right, left, right, back,
 back-left, back-right. They distinguish between the different type of obstacles
